@@ -1,4 +1,4 @@
-name: Hello world workflow
+name: Big Bad Title
 
 on:
     push:
@@ -11,17 +11,17 @@ on:
     
 
 jobs:
-    hello:
+    First thing, that goes:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - name: hello world
+            - name: Here runs the Meow command
               run: echo "Meow"
               shell: bash
               
-    goodbye:
+    Serious job:
         runs-on: ubuntu-latest
         steps:
-            - name: goodbye
+            - name: Here runs the Goodbye command. Get ready
               run: echo "Goodbye"
               shell: bash
