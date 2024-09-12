@@ -11,7 +11,7 @@ on:
     
 
 jobs:
-    First thing, that goes:
+    First_thing_that_goes:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
@@ -19,7 +19,7 @@ jobs:
               run: echo "Meow"
               shell: bash
               
-    Serious job:
+    Serious_job:
         runs-on: ubuntu-latest
         steps:
             - name: Here runs the Goodbye command. Get ready
